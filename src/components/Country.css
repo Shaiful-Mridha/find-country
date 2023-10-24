@@ -1,0 +1,34 @@
+.country {
+    background-color: blanchedalmond;
+    border: 5px solid seagreen;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.country img {
+    width: 200px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .country {
+        width: 80%; /* Adjust the width for smaller screens */
+        margin-left: 10px; /* Adjust the margin for smaller screens */
+    }
+
+    .country img {
+        width: 100%; /* Make the images fill the container on smaller screens */
+    }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+    .country {
+        width: 100%; /* Make the elements take full width on smaller screens */
+        margin-left: 0; /* Remove left margin on smaller screens */
+    }
+}
